@@ -2,7 +2,7 @@ import random
 greetings = ["hello", "hi", "hola", "howdy", "greetings"]
 responses = ["music is so relaxing", "i love playing games", "i like pets. dogs are my favorite"]
 goodbyes = ["bye", "goodbye", "siya", "adios"]
-keyword = ["pet", "games", "music", ]
+keyword = ["pet", "games", "music",  ]
 print(random.choice(greetings))
 user = input("say something to start (or type bye to quit ) ")
 user = user.lower()
